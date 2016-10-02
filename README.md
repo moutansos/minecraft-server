@@ -1,7 +1,7 @@
 # minecraft-server
 A Minecraft Server Docker Container
 
-##Description
+## Description
 This is a Minecraft server with a host mountable data directory. It is based off the alpine official image and openjdk8.
 
 ## Installation/Running Container
