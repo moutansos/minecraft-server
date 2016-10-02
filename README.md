@@ -17,3 +17,7 @@ Server logs are kept at:
 ```bash
 /hsotdatadir/server.log
 ```
+
+## Configuration
+
+Server config files are found in the host data directory
