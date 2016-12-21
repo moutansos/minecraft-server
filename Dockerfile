@@ -10,7 +10,7 @@ RUN apk add ca-certificates openssl openjdk8
 RUN update-ca-certificates
 
 #Download minecraft
-RUN wget -O /srv/minecraft-server.jar https://s3.amazonaws.com/Minecraft.Download/versions/1.11/minecraft_server.1.11.jar
+RUN wget -O /srv/minecraft-server.jar https://s3.amazonaws.com/Minecraft.Download/versions/1.11.2/minecraft_server.1.11.2.jar
 
 #Open the necessary port
 EXPOSE 25565
