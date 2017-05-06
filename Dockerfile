@@ -16,4 +16,4 @@ RUN wget -O /srv/minecraft-server.jar https://s3.amazonaws.com/Minecraft.Downloa
 EXPOSE 25565
 
 #Start everything on runtime
-CMD echo eula=true > /data/eula.txt && cd /data && /bin/sh -c "java -Xmx1024M -Xms1024M -jar /srv/minecraft-server.jar nogui" > /data/server.log
+CMD echo eula=true > /data/eula.txt && cd /data && /bin/sh -c "java -Xmx4024M -Xms1024M -jar /srv/minecraft-server.jar nogui" > /data/server.log
